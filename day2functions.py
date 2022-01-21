@@ -18,3 +18,26 @@ def add_function(num1,num2):
     return sum 
     
 print(add_function(a,b))
+
+#write a script that uses a function with a local variable. Add that local variable
+# to a passed value and display the result. 
+#Use the same variable name in the body of the script, assign it a value
+#  and pass it to the function
+
+#myone
+x = "sama"
+
+def local_variable (x):
+    x="string"
+    print(x)
+
+#
+def myfunc(z):
+    num =9
+    print(z+9)
+
+num =7
+myfunc(num)
+
+
+local_variable(x)
