@@ -9,7 +9,7 @@ while y < (x+5) :
     x= x + 1
     print(x)
 
-#method 2
+#method 2 -correct one
 x = int(input("enter first number"))
 y = x + 5
 while x < y :
