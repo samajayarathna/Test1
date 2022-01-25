@@ -22,21 +22,24 @@ from logging import exception
 
 z=0
 while True:
+
     try:
+        
         num1 = int(input("Enter first number"))
         num2 = int(input("Enter second number"))
 
         if num1 < num2:
-            print(num2,"second number is greater than first number")
-            elif:
-                num2 > num1:
-                print(num1,"first number is greate than second number")
-                else:
-                    print(" both numbers are equal")
-                    z= input("Any key to repeart or \'q\' to quit")
-    if z == 'q':
-        break
+            print(num2,"is greater than ",num1)
+        elif num2 < num1:
+            print(num1,"is greate than ", num2)
+        else:
+            print(" both numbers are equal")
 
-except ValueError:
-    print("Only numbers are valid")
+        z= input("Any key to start again or \'q\' to quit")
+        if z == 'q':
+            break        
+    except ValueError:
+        print("Only numbers are valid")
+
+        
 
