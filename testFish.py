@@ -29,10 +29,10 @@ clownsfish1.skeleton()
 
 print("\n")
 
-for fish in (shark1,clownsfish1):
-    fish.swim()
-    fish.swim_backward()
-    fish.skeleton()
+# for fish in (shark1,clownsfish1):
+#     fish.swim()
+#     fish.swim_backward()
+#     fish.skeleton()
 
 in_the_pacific(shark1)
 in_the_pacific(clownsfish1)
